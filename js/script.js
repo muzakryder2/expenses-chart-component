@@ -6,7 +6,8 @@ const fridayBar = document.querySelector('.bar-fri')
 const saturdayBar = document.querySelector('.bar-sat')
 const sundayBar = document.querySelector('.bar-sun')
 
-const url = '/lib/data.json'
+const url =
+  'https://muzakryder2.github.io/expenses-chart-component/lib/data.json'
 
 fetch(url)
   .then((res) => res.json())
