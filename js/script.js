@@ -6,7 +6,7 @@ const fridayBar = document.querySelector('.bar-fri')
 const saturdayBar = document.querySelector('.bar-sat')
 const sundayBar = document.querySelector('.bar-sun')
 
-const url = '../data.json'
+const url = '/data.json'
 
 fetch(url)
   .then((res) => res.json())
