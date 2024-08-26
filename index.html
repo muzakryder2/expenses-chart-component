@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="top">
+          <div class="top-left">
+            <h3>My balance</h3>
+            <h2>$921.48</h2>
+          </div>
+          <div class="top-right">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <h1>Spending - Last 7 days</h1>
+          <div class="chart">
+            <div class="bar">
+              <div class="data mon-data hidden"></div>
+              <div class="bar-mon"></div>
+              <div class="day"><p>mon</p></div>
+            </div>
+            <div class="bar">
+              <div class="data tue-data hidden"></div>
+              <div class="bar-tue"></div>
+              <div class="day"><p>tue</p></div>
+            </div>
+            <div class="bar">
+              <div class="data wed-data hidden"></div>
+              <div class="bar-wed"></div>
+              <div class="day"><p>wed</p></div>
+            </div>
+            <div class="bar">
+              <div class="data thu-data hidden"></div>
+              <div class="bar-thu"></div>
+              <div class="day"><p>thu</p></div>
+            </div>
+            <div class="bar">
+              <div class="data fri-data hidden"></div>
+              <div class="bar-fri"></div>
+              <div class="day"><p>fri</p></div>
+            </div>
+            <div class="bar">
+              <div class="data sat-data hidden"></div>
+              <div class="bar-sat"></div>
+              <div class="day"><p>sat</p></div>
+            </div>
+            <div class="bar">
+              <div class="data sun-data hidden"></div>
+              <div class="bar-sun"></div>
+              <div class="day"><p>sun</p></div>
+            </div>
+          </div>
+          <div class="details">
+            <div class="details-left">
+              <span>Total this month</span>
+              <p>$478.33</p>
+            </div>
+            <div class="details-right">
+              <span class="percent">+2.4%</span>
+              <span>from last month</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/muzakryder2" target="_blank">Muzakryder2</a
+        >.
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
